@@ -1,0 +1,26 @@
+.header__lang-link {
+    width: 30px;
+    height: 28px;
+    margin: 18px 0 6px 0;
+    color: #FFFFFF;
+}
+
+.header__lang-link:nth-of-type(1) {
+    margin-right: 18px;
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-link {
+    width: 22px;
+    height: 20px;
+    margin: 14px 0 8px 0;
+    }
+
+    .header__lang-link:nth-of-type(1) {
+        width: 22px;
+        height: 20px;
+        margin-right: 18px;
+        }
+    
+}  
+
