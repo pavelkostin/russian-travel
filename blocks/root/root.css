@@ -1,15 +1,9 @@
-@font-face {
-  font-family: "Inter";
-  src: url(../../fonts/Inter-VariableFont_slnt_wght.ttf) format("truetype");
-  src: url(../../fonts/Inter-VariableFont_slnt_wght.ttf) format("truetype");
-  src: url(../../fonts/Inter-VariableFont_slnt_wght.ttf) format("truetype");
-}
-
 .root {
-    overflow: hidden;
     background-color: #2A2C2F;
     -webkit-font-smoothing: antialiased;
     font-family: "Inter";
+    font-style: normal;
+    
   }
 
 
