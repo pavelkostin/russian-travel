@@ -1,12 +1,9 @@
 .photo-grid {
     margin: 92px auto 0 auto;
     max-width: 1184px;
-
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 16px;
-
-
 }
 
 
@@ -16,19 +13,15 @@
         max-width: 928px;
         margin: 92px auto 0 auto;
         grid-template-columns: repeat(3, 1fr);
-
         gap: 14px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .photo-grid {
-
     margin: 88px auto 0 auto;
     max-width: 720px;
-
     grid-template-columns: repeat(2, 1fr);
-
     gap: 16px;
     }
 }
@@ -36,9 +29,7 @@
 @media screen and (max-width: 767px) {
     .photo-grid {
         max-width: 320px;
-
         margin: 64px auto 0 auto;
-
         grid-template-columns: 1fr;
         gap: 12px;
     }
@@ -47,74 +38,8 @@
 @media screen and (max-width: 320px) {
     .photo-grid {
         min-width: 288px;
-
         margin: 64px 16px 0 16px;
-
         grid-template-columns: 1fr;
         gap: 12px;
     }
 }
-
-/*
-@media screen and (max-width: 320px) {
-    .photo-grid {
-        min-width: 288px;
-
-        margin: 64px auto 0 auto;
-
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(12, 1fr);
-        row-gap: 12px;
-    }
-}
-
-/*
-@media screen and (max-width: 320px) {
-    .photo-grid {
-    min-width: 288px;
-
-    margin: 64px 16px 0 16px;
-
-    grid-template-columns: 288px;
-    grid-template-rows: repeat(12, 216px);
-    gap: 12px;
-    }
-} 
-
-
-
-
-
-/*@media screen and (max-width: 1023px) {
-    .photo-grid {
-    max-width: 928px;
-
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 225px 225px 225px 225px;
-    gap: 14px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .photo-grid {
-    max-width: 720px;
-
-    margin: 88px 24px 0 24px;
-
-    grid-template-columns: 352px 352px;
-    grid-template-rows: repeat(6, 264px);
-    gap: 16px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .photo-grid {
-    min-width: 288px;
-
-    margin: 64px 16px 0 16px;
-
-    grid-template-columns: 288px;
-    grid-template-rows: repeat(12, 216px);
-    gap: 12px;
-    }
-}  
