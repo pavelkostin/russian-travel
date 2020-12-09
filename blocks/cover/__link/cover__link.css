@@ -1,0 +1,29 @@
+.cover__link {
+    background-image: url(../../../images/__background.png);
+    background-size: cover;
+    background-position: center;
+
+    text-decoration: none;
+    color: #fff;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.cover__link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #2A2C2F;
+    opacity: 0.3;
+}
+
+.cover__link:hover::before {
+    opacity: 0.8;
+}

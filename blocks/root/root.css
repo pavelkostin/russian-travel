@@ -1,37 +1,11 @@
 .root {
+
     background-color: #2A2C2F;
+    font-family: 'Inter', Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
-    font-family: "Inter";
-    font-style: normal;
-    
+
+    border: solid 1px #2A2C2F;
   }
 
-
-@media screen and (max-width: 1280px) {
-    .root {
-    width: 1280px;
-    }
-
-  }
-
-
-@media screen and (max-width: 1024px) {
-    .root {
-    width: 1024px;
-    }
-
-  }
-
-  @media screen and (max-width: 768px) {
-    .root {
-    width: 768px;
-    }
-    
-  }
-
-  @media screen and (max-width: 320px) {
-    .root {
-    width: 320px;
-    }
-    
-  }
+  
+/*@viewport { width: device-width;}
