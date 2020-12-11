@@ -1,0 +1,11 @@
+.intro__list_normal {
+    margin: 0;
+    padding: 0;
+    font-size: .75rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    list-style-type: none;
+}

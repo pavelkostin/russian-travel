@@ -2,5 +2,5 @@
     background-color: #2A2C2F;
     font-family: 'Inter', Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
-    border: solid 1px #2A2C2F;
+    min-width: 320px;
   }

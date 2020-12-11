@@ -1,5 +1,6 @@
-.place__website_link {
-    margin-top: 12px;
+.place__link {
+    margin: 0;
+    padding: 0;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -8,14 +9,15 @@
     text-align: left;
     color: #FFFFFF;
 }
-
 .place__link:hover {
     opacity: 0.8;
 }
 
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .place__link {
-    display: none;
+        display: none;
     }
-}  
+}
+
+
+

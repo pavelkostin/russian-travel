@@ -1,0 +1,38 @@
+.left {
+    max-width: 690px;
+    margin: 0 auto 0 0;
+    padding: 0;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+@media screen and (max-width: 1279px) {
+    .left {
+
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .left {
+        margin: 0 auto 0 auto;
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .left {
+        margin: 0 auto 0 auto;
+        max-width: 288px;
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .left {
+
+        min-width: 288px; 
+    }
+}

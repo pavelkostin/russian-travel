@@ -1,24 +1,20 @@
 .header {
     max-width: 1184px;
-
-    margin: 28px auto 0 auto;
-
+    margin: 0 auto 0 auto;
+    padding-top: 28px;
     display: flex;
     justify-content: space-between;
+
 
 }
 @media screen and (max-width: 1279px) {
     .header {
-
-        margin: 28px auto 0 auto;
         max-width: 928px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .header {
-
-        margin: 28px auto 0 auto;
         max-width: 720px;
     }
 }
@@ -26,15 +22,13 @@
 @media screen and (max-width: 767px) {
     .header {
         max-width: 288px;
-        margin: 16px auto 0 auto;
+        padding-top: 16px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .header {
         min-width: 288px;
-        margin: 16px 16px 0 16px;
-
+        padding: 16px 16px 0 16px;
     }
 }
-

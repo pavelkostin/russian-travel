@@ -1,39 +1,18 @@
 .intro__list {
-
     margin: 33px 0 0 0;
     padding: 0;
     font-size: .75rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: bold;
     line-height: 18px;
     letter-spacing: 0em;
     text-align: left;
     list-style-type: none;
 }
 
-@media screen and (max-width: 1279px) {
-    .intro__list {
-        margin-left: 24px;
-    }
-}
-
-@media screen and (max-width: 1023px) {
-    .intro__list {
-        margin-left: 24px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .intro__list {
-        margin-left: 16px;
-    }
-}
-
 @media screen and (max-width: 320px) {
     .intro__list {
-        margin-left: 16px;
         min-width: 288px;
-
     }
 }  
 
