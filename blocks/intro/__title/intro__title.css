@@ -4,15 +4,8 @@
     font-weight: 900;
     letter-spacing: 0em;
     text-align: left;
-
     font-size: 54px;
     line-height: 58px;
-}
-
-@media screen and (max-width: 1279px) {
-    .intro__title {
-
-    }
 }
 
 @media screen and (max-width: 767px) {
@@ -20,6 +13,5 @@
         font-size: 2rem;
         line-height: 35px;
         min-width: 288px;
-
     }
 }
